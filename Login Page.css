@@ -1,0 +1,117 @@
+.olive-text a {
+    color: #ffffff;
+   
+}
+
+.lime-text {
+    color: #2C5909;
+}
+.Toolbar{
+    margin-top:0px;
+    padding:0px;
+    background-color:#2C5909;
+    overflow:hidden;
+    width:1200px;
+}
+.Toolbar a {
+ float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+    }
+ .Toolbar a:hover {
+  background-color: #ddd;
+  color: black;
+    }
+ .Toolbar a.active {
+ background-color: #4CAF50;
+ color: white;
+    }
+.Toolbar input[type=text] {
+float: right;
+padding: 6px;
+border: none;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 17px;
+ }
+
+.container {
+max-width: 1200px;
+margin: initial;
+display: flex;
+align-items: center;
+    }
+
+
+.d-inlineblock {
+    display: inline-block;
+}
+
+.width-25 {
+    width: 20%;
+}
+
+.width-75 {
+    width: 75%;
+}
+
+
+.content-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-between {
+    display: flex;
+    justify-content:space-around;
+    margin-top:70px;
+  
+
+}
+.signup-input {
+    width: 70%;
+    background: none;
+    border: none;
+    border-bottom: olive solid 1px;
+}
+
+
+form label, form input {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    background-image: url('/Project/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+div {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+button {
+    background-color:#ffffff;
+    border:none;
+    color:#2C5909;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    border-radius: 20px;
+    width: 20%;
+   margin-left:600px;
+   margin-top:100px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
