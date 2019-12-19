@@ -1,0 +1,65 @@
+.olive-text a {
+    color:  olive;
+}
+
+.lime-text {
+    color:  limegreen;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.d-inlineblock {
+    display: inline-block;
+}
+
+.width-25{
+    width: 25%;
+}
+
+.width-75{
+    width: 75%;
+}
+
+.content-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-input {
+    width: 60%;
+    background: none;
+    border: none;
+    border-bottom: olive solid 1px;
+}
+
+
+form label, form input {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 100%;
+}
+
+html {
+    background-image: url('/images/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+div {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
